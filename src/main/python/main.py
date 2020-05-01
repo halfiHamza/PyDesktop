@@ -2,7 +2,7 @@ from fbs_runtime.application_context.PyQt5 import ApplicationContext
 from PyQt5.QtWidgets import QMainWindow, QWidget
 from RootUi import Ui_MainWindow
 import LoginUi
-import dbConfig
+import Config_db
 import sys
 import configparser
 from database import MySQL
