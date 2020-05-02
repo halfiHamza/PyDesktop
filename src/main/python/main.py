@@ -50,7 +50,7 @@ class Login(QWidget, MainCore, LoginUi.Ui_Form):
             self.close()
 
 
-class Config(QWidget, dbConfig.Ui_Form, MainCore):
+class Config(QWidget, Config_db.Ui_Form, MainCore):
     def __init__(self):
         QWidget.__init__(self)
         self.setupUi(self)
